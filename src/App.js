@@ -4,8 +4,8 @@ import Bonus from './bonus/Bonus';
 function App() {
   return (
     <div> 
-      {/* <Exercise good="Great" bad="Not Great" /> */}
       <Exercise />
+      <Exercise good="Awesome" bad="Terrible" />
       <Bonus />
 
     </div>
